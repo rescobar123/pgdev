@@ -1,0 +1,8 @@
+<?php include 'conexion.php';
+	$sel = $con->query("SELECT codigo, nombre, genero, direccion, foto from dat_gen ORDER BY codigo DESC");
+	$row = mysqli_num_rows($sel);
+while ($f = $sel->fetch_assoc()) {	
+	
+	echo $f['codigo'].' '.$f['nombre'].' '.$f['genero'].' '.$f['direccion'];
+		
+}

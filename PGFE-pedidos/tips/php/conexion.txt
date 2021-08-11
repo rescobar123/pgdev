@@ -1,0 +1,4 @@
+<?php @session_start();//Iniciar una sesion en el servidor
+$con = new mysqli('localhost', 'root','admin', 'colegio');
+$con->set_charset('utf8');//es para que muestre tildes y letras extra«Ðas las consultas hechas a la bd
+?>
