@@ -1,5 +1,0 @@
-NOTAS PHP MVC:
-
-isset(): para saber si esta definida alguna variables
-ceil() redondea y toma el entero
-explode(): dividir en parte un string
